@@ -2,61 +2,70 @@
 	"phoenix-as-a-dream:paadVCMIEnhancementShield":
      {
 		"bonuses" : 
-		[
+		{
+			"shield" :
 			{
-				"subtype": "spell.shield",
+				"subtype": "shield",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 100,
 				"valueType" : "BASE_NUMBER"
 			},
+			"airShield" :
 			{
-				"subtype": "spell.airShield",
+				"subtype": "airShield",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 100,
 				"valueType" : "BASE_NUMBER"
 			},
+			"fireShield" :
 			{
-				"subtype": "spell.fireShield",
+				"subtype": "fireShield",
+				"type" : "OPENING_BATTLE_SPELL",
+				"val" : 100,
+			},
+			"protectAir" :
+			{
+				"subtype": "protectAir",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 100,
 				"valueType" : "BASE_NUMBER"
 			},
+			"protectFire" :
 			{
-				"subtype": "spell.protectAir",
+				"subtype": "protectFire",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 100,
 				"valueType" : "BASE_NUMBER"
 			},
+			"protectWater" :
 			{
-				"subtype": "spell.protectFire",
+				"subtype": "protectWater",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 100,
 				"valueType" : "BASE_NUMBER"
 			},
+			"protectEarth" :
 			{
-				"subtype": "spell.protectWater",
+				"subtype": "protectEarth",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 100,
 				"valueType" : "BASE_NUMBER"
 			},
+			"magicMirror" :
 			{
-				"subtype": "spell.protectEarth",
+				"subtype": "magicMirror",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 100,
 				"valueType" : "BASE_NUMBER"
 			},
+			"stoneSkin" :
 			{
-				"subtype": "spell.magicMirror",
+				"subtype": "stoneSkin",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 100,
 				"valueType" : "BASE_NUMBER"
 			},
-			{
-				"subtype": "spell.stoneSkin",
-				"type" : "OPENING_BATTLE_SPELL",
-				"val" : 100,
-				"valueType" : "BASE_NUMBER"
-			},
+			"soulSteal1" :
 			{
 				"subtype": "soulStealPermanent",
 				"type": "SOUL_STEAL",
@@ -65,21 +74,19 @@
 					"allOf",
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "firebird", false ]
+						"creature" : "firebird",
+						"includeUpgrades" : false
 					},
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"soulSteal2" :
 			{
 				"subtype": "soulStealPermanent",
 				"type": "SOUL_STEAL",
@@ -88,21 +95,19 @@
 					"allOf",
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "phoenix", false ]
+						"creature" : "phoenix",
+						"includeUpgrades" : false
 					},
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"soulSteal3" :
 			{
 				"subtype": "soulStealPermanent",
 				"type": "SOUL_STEAL",
@@ -111,22 +116,19 @@
 					"allOf",
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "sacredPhoenix", false ]
+						"creature" : "sacredPhoenix",
+						"includeUpgrades" : false
 					},
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			}
-		]
+		}
 	}
 }
 

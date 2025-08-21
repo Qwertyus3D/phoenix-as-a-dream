@@ -2,128 +2,155 @@
 	"phoenix-as-a-dream:paadReprogrammingChip":
      {
 		"bonuses" : 
-		[
+		{
+			"+addAttack1" :
 			{
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1,
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "ironGolem", false ]
+						"creature" : "ironGolem",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"+addAttack2" :
 			{
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1,
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "stoneGolem", false ]
+						"creature" : "stoneGolem",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"+addAttack3" :
 			{
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1,
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "goldGolem", false ]
+						"creature" : "goldGolem",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"+addAttack4" :
 			{
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1,
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "diamondGolem", false ]
+						"creature" : "diamondGolem",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"+blockAttack1" :
 			{
 				"type" : "BLOCKS_RETALIATION",
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "giant", false ]
+						"creature" : "giant",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"+blockAttack2" :
 			{
 				"type" : "BLOCKS_RETALIATION",
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "titan", false ]
+						"creature" : "titan",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"noDistance1" :
 			{
 				"type" : "NO_DISTANCE_PENALTY",
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "titan", false ]
+						"creature" : "titan",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"noWall1" :
 			{
 				"type" : "NO_WALL_PENALTY",
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "titan", false ]
+						"creature" : "titan",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"freeShoot1" :
 			{
 				"type" : "FREE_SHOOTING",
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "titan", false ]
+						"creature" : "titan",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"+blockAttack3" :
 			{
 				"type" : "BLOCKS_RETALIATION",
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "lordOfThunder", false ]
+						"creature" : "lordOfThunder",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"noDistance2" :
 			{
 				"type" : "NO_DISTANCE_PENALTY",
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "lordOfThunder", false ]
+						"creature" : "lordOfThunder",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"noWall2" :
 			{
 				"type" : "NO_WALL_PENALTY",
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "lordOfThunder", false ]
+						"creature" : "lordOfThunder",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"freeShoot2" :
 			{
 				"type" : "FREE_SHOOTING",
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "lordOfThunder", false ]
+						"creature" : "lordOfThunder",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"damRedo1" :
 			{
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"subtype": "damageTypeAll",
@@ -131,10 +158,12 @@
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "ironGolem", false ]
+						"creature" : "ironGolem",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"damRedo2" :
 			{
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"subtype": "damageTypeAll",
@@ -142,10 +171,12 @@
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "stoneGolem", false ]
+						"creature" : "stoneGolem",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"damRedo3" :
 			{
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"subtype": "damageTypeAll",
@@ -153,10 +184,12 @@
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "goldGolem", false ]
+						"creature" : "goldGolem",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"damRedo4" :
 			{
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"subtype": "damageTypeAll",
@@ -164,10 +197,12 @@
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "diamondGolem", false ]
+						"creature" : "diamondGolem",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"damRedo5" :
 			{
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"subtype": "damageTypeAll",
@@ -175,10 +210,12 @@
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "giant", false ]
+						"creature" : "giant",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"damRedo6" :
 			{
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"subtype": "damageTypeAll",
@@ -186,10 +223,12 @@
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "titan", false ]
+						"creature" : "titan",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"damRedo7" :
 			{
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"subtype": "damageTypeAll",
@@ -197,629 +236,577 @@
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "lordOfThunder", false ]
+						"creature" : "lordOfThunder",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"stackSpeed1" :
 			{
 				"type" : "STACKS_SPEED",
 				"val" : 3,
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "ironGolem", false ]
+						"creature" : "ironGolem",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"stackSpeed2" :
 			{
 				"type" : "STACKS_SPEED",
 				"val" : 3,
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "stoneGolem", false ]
+						"creature" : "stoneGolem",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"stackSpeed3" :
 			{
 				"type" : "STACKS_SPEED",
 				"val" : 4,
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "goldGolem", false ]
+						"creature" : "goldGolem",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"stackSpeed4" :
 			{
 				"type" : "STACKS_SPEED",
 				"val" : 4,
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "diamondGolem", false ]
+						"creature" : "diamondGolem",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"stackSpeed5" :
 			{
 				"type" : "STACKS_SPEED",
 				"val" : 5,
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "giant", false ]
+						"creature" : "giant",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"stackSpeed6" :
 			{
 				"type" : "STACKS_SPEED",
 				"val" : 5,
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "titan", false ]
+						"creature" : "titan",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"stackSpeed7" :
 			{
 				"type" : "STACKS_SPEED",
 				"val" : 5,
 				"limiters" : [
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "lordOfThunder", false ]
+						"creature" : "lordOfThunder",
+						"includeUpgrades" : false
 					}
 				]
 			},
+			"fireImm1" :
 			{
 				"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype": "spellSchool.fire",
+				"subtype": "fire",
 				"limiters" : [
 					"allOf",
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "ironGolem", false ]
+						"creature" : "ironGolem",
+						"includeUpgrades" : false
 					},
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"fireImm2" :
 			{
 				"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype": "spellSchool.fire",
+				"subtype": "fire",
 				"limiters" : [
 					"allOf",
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "stoneGolem", false ]
+						"creature" : "stoneGolem",
+						"includeUpgrades" : false
 					},
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"fireImm3" :
 			{
 				"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype": "spellSchool.fire",
+				"subtype": "fire",
 				"limiters" : [
 					"allOf",
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "goldGolem", false ]
+						"creature" : "goldGolem",
+						"includeUpgrades" : false
 					},
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"fireImm4" :
 			{
 				"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype": "spellSchool.fire",
+				"subtype": "fire",
 				"limiters" : [
 					"allOf",
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "diamondGolem", false ]
+						"creature" : "diamondGolem",
+						"includeUpgrades" : false
 					},
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"fireImm5" :
 			{
 				"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype": "spellSchool.fire",
+				"subtype": "fire",
 				"limiters" : [
 					"allOf",
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "giant", false ]
+						"creature" : "giant",
+						"includeUpgrades" : false
 					},
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"fireImm6" :
 			{
 				"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype": "spellSchool.fire",
+				"subtype": "fire",
 				"limiters" : [
 					"allOf",
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "titan", false ]
+						"creature" : "titan",
+						"includeUpgrades" : false
 					},
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"fireImm7" :
 			{
 				"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype": "spellSchool.fire",
+				"subtype": "fire",
 				"limiters" : [
 					"allOf",
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "lordOfThunder", false ]
+						"creature" : "lordOfThunder",
+						"includeUpgrades" : false
 					},
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"receptive1" :
 			{
 				"type" : "RECEPTIVE",
 				"limiters" : [
 					"allOf",
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "ironGolem", false ]
+						"creature" : "ironGolem",
+						"includeUpgrades" : false
 					},
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"receptive2" :
 			{
 				"type" : "RECEPTIVE",
 				"limiters" : [
 					"allOf",
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "stoneGolem", false ]
+						"creature" : "stoneGolem",
+						"includeUpgrades" : false
 					},
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"receptive3" :
 			{
 				"type" : "RECEPTIVE",
 				"limiters" : [
 					"allOf",
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "goldGolem", false ]
+						"creature" : "goldGolem",
+						"includeUpgrades" : false
 					},
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"receptive4" :
 			{
 				"type" : "RECEPTIVE",
 				"limiters" : [
 					"allOf",
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "diamondGolem", false ]
+						"creature" : "diamondGolem",
+						"includeUpgrades" : false
 					},
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"receptive5" :
 			{
 				"type" : "RECEPTIVE",
 				"limiters" : [
 					"allOf",
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "giant", false ]
+						"creature" : "giant",
+						"includeUpgrades" : false
 					},
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"receptive6" :
 			{
 				"type" : "RECEPTIVE",
 				"limiters" : [
 					"allOf",
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "titan", false ]
+						"creature" : "titan",
+						"includeUpgrades" : false
 					},
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"receptive7" :
 			{
 				"type" : "RECEPTIVE",
 				"limiters" : [
 					"allOf",
 					{
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "lordOfThunder", false ]
+						"creature" : "lordOfThunder",
+						"includeUpgrades" : false
 					},
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"specialUpg1" :
 			{
 				"type" : "SPECIAL_UPGRADE",
-				"subtype" : "creature.fireElemental",
-				"addInfo" : "creature.ironGolem",
+				"subtype" : "fireElemental",
+				"addInfo" : "ironGolem",
 				"limiters" : [
 
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"specialUpg2" :
 			{
 				"type" : "SPECIAL_UPGRADE",
-				"subtype" : "creature.energyElemental",
-				"addInfo" : "creature.stoneGolem",
+				"subtype" : "energyElemental",
+				"addInfo" : "stoneGolem",
 				"limiters" : [
 
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"specialUpg3" :
 			{
 				"type" : "SPECIAL_UPGRADE",
-				"subtype" : "creature.paadHotFlameElement",
-				"addInfo" : "creature.goldGolem",
+				"subtype" : "paadHotFlameElement",
+				"addInfo" : "goldGolem",
 				"limiters" : [
 
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"specialUpg4" :
 			{
 				"type" : "SPECIAL_UPGRADE",
-				"subtype" : "creature.paadGoldenSunElement",
-				"addInfo" : "creature.diamondGolem",
+				"subtype" : "paadGoldenSunElement",
+				"addInfo" : "diamondGolem",
 				"limiters" : [
 
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"specialUpg5" :
 			{
 				"type" : "SPECIAL_UPGRADE",
-				"subtype" : "creature.firebird",
-				"addInfo" : "creature.giant",
+				"subtype" : "firebird",
+				"addInfo" : "giant",
 				"limiters" : [
 
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"specialUpg6" :
 			{
 				"type" : "SPECIAL_UPGRADE",
-				"subtype" : "creature.phoenix",
-				"addInfo" : "creature.titan",
+				"subtype" : "phoenix",
+				"addInfo" : "titan",
 				"limiters" : [
 
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"specialUpg7" :
 			{
 				"type" : "SPECIAL_UPGRADE",
-				"subtype" : "creature.sacredPhoenix",
-				"addInfo" : "creature.lordOfThunder",
+				"subtype" : "sacredPhoenix",
+				"addInfo" : "lordOfThunder",
 				"limiters" : [
 
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"specialUpg8" :
 			{
 				"type" : "SPECIAL_UPGRADE",
-				"subtype" : "creature.ironGolem",
-				"addInfo" : "creature.stoneGolem",
+				"subtype" : "ironGolem",
+				"addInfo" : "stoneGolem",
 				"limiters" : [
 
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"specialUpg9" :
 			{
 				"type" : "SPECIAL_UPGRADE",
-				"subtype" : "creature.stoneGolem",
-				"addInfo" : "creature.goldGolem",
+				"subtype" : "stoneGolem",
+				"addInfo" : "goldGolem",
 				"limiters" : [
 
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"specialUpg10" :
 			{
 				"type" : "SPECIAL_UPGRADE",
-				"subtype" : "creature.goldGolem",
-				"addInfo" : "creature.diamondGolem",
+				"subtype" : "goldGolem",
+				"addInfo" : "diamondGolem",
 				"limiters" : [
 
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"specialUpg11" :
 			{
 				"type" : "SPECIAL_UPGRADE",
-				"subtype" : "creature.diamondGolem",
-				"addInfo" : "creature.giant",
+				"subtype" : "diamondGolem",
+				"addInfo" : "giant",
 				"limiters" : [
 
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"specialUpg12" :
 			{
 				"type" : "SPECIAL_UPGRADE",
-				"subtype" : "creature.giant",
-				"addInfo" : "creature.titan",
+				"subtype" : "giant",
+				"addInfo" : "titan",
 				"limiters" : [
 
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			},
+			"specialUpg13" :
 			{
 				"type" : "SPECIAL_UPGRADE",
-				"subtype" : "creature.titan",
-				"addInfo" : "creature.lordOfThunder",
+				"subtype" : "titan",
+				"addInfo" : "lordOfThunder",
 				"limiters" : [
 
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PRIMARY_SKILL",
-							"primarySkill.attack",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.paadPhoenixsBless"
-							}
-						]
+						"bonusType" : "PRIMARY_SKILL",
+						"bonusSubtype" : "attack",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "paadPhoenixsBless"
 					}
 				]
 			}
-		]
+		}
 	}
 }
 

@@ -1,0 +1,58 @@
+{
+	"paadFourSchools" : {
+		"name" : "Four Schools",
+		"specialty" : [], // no generic specialty
+		"gainChance" : {
+			"might" : 0,
+			"magic" : 0
+		},
+		"basic" : {
+			"images" : {
+				"small" : "phoenix-as-a-dream/skills/fourSchools/fourSchoolsBasicSmall",
+				"medium" : "phoenix-as-a-dream/skills/fourSchools/fourSchoolsBasicMedium",
+				"large" : "phoenix-as-a-dream/skills/fourSchools/fourSchoolsBasicLarge",
+				"scenarioBonus" : "phoenix-as-a-dream/scenarioBonuses/BonusBlank.png"
+			},
+			"description" : "{Basic Four Schools}\n\nBasic Four Schools allows your hero to cast four schools spells at reduced cost.",
+			"effects" : {
+				"magicSchoolSkill" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"subtype" : "any",
+					"val": 1
+				}
+			}
+		},
+		"advanced" : {
+			"images" : {
+				"small" : "phoenix-as-a-dream/skills/fourSchools/fourSchoolsAdvSmall",
+				"medium" : "phoenix-as-a-dream/skills/fourSchools/fourSchoolsAdvMedium",
+				"large" : "phoenix-as-a-dream/skills/fourSchools/fourSchoolsAdvLarge",
+				"scenarioBonus" : "phoenix-as-a-dream/scenarioBonuses/BonusBlank.png"
+			},
+			"description" : "{Advanced Four Schools}}\n\nAdvanced Four Schools allows your hero to cast four schools spells at reduced cost and increased effectiveness.",
+			"effects" : {
+				"magicSchoolSkill" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"subtype" : "any",
+					"val": 2
+				}
+			}
+		},
+		"expert" : {
+			"images" : {
+				"small" : "phoenix-as-a-dream/skills/fourSchools/fourSchoolsExpSmall",
+				"medium" : "phoenix-as-a-dream/skills/fourSchools/fourSchoolsExpMedium",
+				"large" : "phoenix-as-a-dream/skills/fourSchools/fourSchoolsExpLarge",
+				"scenarioBonus" : "phoenix-as-a-dream/scenarioBonuses/BonusBlank.png"
+			},
+			"description" : "{Expert Four Schools}\n\nExpert Four Schools allows your hero to cast four schools spells at reduced cost and maximum effectiveness.",
+			"effects" : {
+				"magicSchoolSkill" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"subtype" : "any",
+					"val": 3
+				}
+			}
+		}
+	}
+}

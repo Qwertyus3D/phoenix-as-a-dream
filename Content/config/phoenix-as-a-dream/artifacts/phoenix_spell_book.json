@@ -6,57 +6,69 @@
 		"class" : "RELIC",
 		"value" : 24000,
 		"bonuses" : 
-		[
+		{
+			
+			"chainLightning" :
 			{
 				"subtype" : "spell.chainLightning",
 				"type" : "SPELL",
 				"val" : 0
 			},
+			"meteorShower" :
 			{
 				"subtype" : "spell.meteorShower",
 				"type" : "SPELL",
 				"val" : 0
 			},
+			"resurrection" :
 			{
 				"subtype" : "spell.resurrection",
 				"type" : "SPELL",
 				"val" : 0
 			},
+			"townPortal" :
 			{
 				"subtype" : "spell.townPortal",
 				"type" : "SPELL",
 				"val" : 0
 			},
+			"prayer1" :
 			{
 				"subtype" : "spell.prayer",
 				"type" : "SPELL",
 				"val" : 0
 			},
+			"armagedon" :
 			{
 				"subtype" : "spell.armageddon",
 				"type" : "SPELL",
 				"val" : 0
 			},
+			"berserk " :
 			{
 				"subtype" : "spell.berserk",
 				"type" : "SPELL",
 				"val" : 0
 			},
+			"dimensionDoor" :
 			{
 				"subtype" : "spell.dimensionDoor",
 				"type" : "SPELL",
 				"val" : 0
 			},
+			"fly" :
 			{
 				"subtype" : "spell.fly",
 				"type" : "SPELL",
 				"val" : 0
 			},
+			"prayer2" :
 			{
 				"subtype" : "spell.prayer",
 				"type" : "SPELL",
 				"val" : 0
 			},
+			"paadLesserSummonPhoenix" :
 			{
 				"subtype" : "spell.paadLesserSummonPhoenix",
 				"type" : "SPELL",
@@ -76,6 +88,7 @@
 					}
 				]
 			},
+			"paadSummonPhoenix" :
 			{
 				"subtype" : "spell.paadSummonPhoenix",
 				"type" : "SPELL",
@@ -95,9 +108,9 @@
 				]
 			}
 			
-		],
+		},
 		"graphics" : {
-			"large" : "phoenix-as-a-dream/artifacts/phoenixSpellBookLarge",
+			"scenarioBonus" : "phoenix-as-a-dream/artifacts/phoenixSpellBookLarge",
 			"image" : "phoenix-as-a-dream/artifacts/phoenixSpellBookMedium",
 			"map" : "phoenix-as-a-dream/map/artifacts/phoenixSpellBook.def"
 		},

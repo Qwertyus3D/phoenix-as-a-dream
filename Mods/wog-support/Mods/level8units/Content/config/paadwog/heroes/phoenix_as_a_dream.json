@@ -12,13 +12,13 @@
 			"bonuses" : {
 				"lordOfThunder2sacredPhoenix": {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.lordOfThunder",
-					"addInfo" : "creature.sacredPhoenix"
+					"subtype" : "lordOfThunder",
+					"addInfo" : "sacredPhoenix"
 				},
 				"phoenix2sacredPhoenix": {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.phoenix",
-					"addInfo" : "creature.sacredPhoenix"
+					"subtype" : "phoenix",
+					"addInfo" : "sacredPhoenix"
 				}
 			}
 		}

@@ -1,0 +1,58 @@
+{
+	"paadFireResist" : {
+		"name" : "Fire Resist",
+		"specialty" : [], // no generic specialty
+		"gainChance" : {
+			"might" : 0,
+			"magic" : 0
+		},
+		"basic" : {
+			"images" : {
+				"small" : "phoenix-as-a-dream/skills/fireResist/fireResistBasicSmall",
+				"medium" : "phoenix-as-a-dream/skills/fireResist/fireResistBasicMedium",
+				"large" : "phoenix-as-a-dream/skills/fireResist/fireResistBasicLarge",
+				"scenarioBonus" : "phoenix-as-a-dream/scenarioBonuses/BonusBlank.png"
+			},
+			"description" : "{Basic Fire Resist}\n\nBasic Fire Resist reduces the fire spell damage inflicted against the hero's troops by 25%.",
+			"effects" : {
+				"fireSpellDamageReduction" : {
+					"type" : "SPELL_DAMAGE_REDUCTION",
+					"subtype" : "fire",
+					"val": 25
+				}
+			}
+		},
+		"advanced" : {
+			"images" : {
+				"small" : "phoenix-as-a-dream/skills/fireResist/fireResistAdvSmall",
+				"medium" : "phoenix-as-a-dream/skills/fireResist/fireResistAdvMedium",
+				"large" : "phoenix-as-a-dream/skills/fireResist/fireResistAdvLarge",
+				"scenarioBonus" : "phoenix-as-a-dream/scenarioBonuses/BonusBlank.png"
+			},
+			"description" : "{Advanced Fire Resist}\n\nAdvanced Fire Resist reduces the fire spell damage inflicted against the hero's troops by 50%.",
+			"effects" : {
+				"fireSpellDamageReduction" : {
+					"type" : "SPELL_DAMAGE_REDUCTION",
+					"subtype" : "fire",
+					"val": 50
+				}
+			}
+		},
+		"expert" : {
+			"images" : {
+				"small" : "phoenix-as-a-dream/skills/fireResist/fireResistExpSmall",
+				"medium" : "phoenix-as-a-dream/skills/fireResist/fireResistExpMedium",
+				"large" : "phoenix-as-a-dream/skills/fireResist/fireResistExpLarge",
+				"scenarioBonus" : "phoenix-as-a-dream/scenarioBonuses/BonusBlank.png"
+			},
+			"description" : "{Expert Fire Resist}\n\nExpert Fire Resist reduces the fire spell damage inflicted against the hero's troops by 100%.",
+			"effects" : {
+				"fireSpellDamageReduction" : {
+					"type" : "SPELL_DAMAGE_REDUCTION",
+					"subtype" : "fire",
+					"val": 100
+				}
+			}
+		}
+	}
+}

@@ -4,11 +4,14 @@
 	"author": "kdmcser",
 	"version" : "1.0.0",
 	"contact": "",
-	"modType" : "Expansion",
-	"depends" : ["wake-of-gods.level8units", "phoenix-as-a-dream"],
+	"modType" : "Compatibility",
+	"depends" : [
+		"wake-of-gods.level8units", 
+		"phoenix-as-a-dream"
+	],
 	"compatibility" :
 	{
-		"min" : "1.5.0"
+		"min" : "1.6.0"
 	},	
 	"changelog" :
 	{
