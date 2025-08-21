@@ -1,94 +1,83 @@
 {
-	"paadPhoenixSummoner" :
-	{
+	"paadPhoenixSummoner" : {
 		"name" : "Phoenix Summoner",
-		"animation":
-		{
-			"battle" :
-			{
+		"animation" : {
+			"battle" : {
 				"male" : "CH17.DEF",
 				"female" : "CH17.DEF"
 			}
 		},
-		"mapObject" :
-		{
-			"templates" :
-			{
-				"default" :
-				{
+		"mapObject" : {
+			"templates" : {
+				"default" : {
 					"animation" : "AH17_.def",
-					"editorAnimation": "AH17_E.def"
+					"editorAnimation" : "AH17_E.def"
 				}
 			}
 		},
-		"commander" : "archMage",		
+		"commander" : "archMage",
 		"faction" : "tower",
 		"affinity" : "magic",
-		"primarySkills" :
-		{
-			"attack"     : 0,
-			"defence"    : 0,
+		"primarySkills" : {
+			"attack" : 0,
+			"defence" : 0,
 			"spellpower" : 3,
-			"knowledge"  : 3
+			"knowledge" : 3
 		},
-		"lowLevelChance" :
-		{
-			"attack"     : 15,
-			"defence"    : 20,
+		"lowLevelChance" : {
+			"attack" : 15,
+			"defence" : 20,
 			"spellpower" : 35,
-			"knowledge"  : 30
+			"knowledge" : 30
 		},
-		"highLevelChance" :
-		{
-			"attack"     : 20,
-			"defence"    : 20,
+		"highLevelChance" : {
+			"attack" : 20,
+			"defence" : 20,
 			"spellpower" : 30,
-			"knowledge"  : 30
+			"knowledge" : 30
 		},
-		"secondarySkills" :
-		{
-			"pathfinding"  : 3,
-			"archery"      : 7,
-			"logistics"    : 8,
-			"scouting"     : 1,
-			"diplomacy"    : 5,
-			"navigation"   : 2,
-			"leadership"   : 4,
-			"wisdom"       : 8,
-			"mysticism"    : 1,
-			"luck"         : 4,
-			"ballistics"   : 1,
-			"eagleEye"     : 1,
-			"necromancy"   : 0,
-			"estates"      : 1,
-			"fireMagic"    : 10,
-			"airMagic"     : 8,
-			"waterMagic"   : 7,
-			"earthMagic"   : 9,
-			"scholar"      : 1,
-			"tactics"      : 5,
-			"artillery"    : 1,
-			"learning"     : 1,
-			"offence"      : 5,
-			"armorer"      : 6,
+		"secondarySkills" : {
+			"pathfinding" : 3,
+			"archery" : 7,
+			"logistics" : 8,
+			"scouting" : 1,
+			"diplomacy" : 5,
+			"navigation" : 2,
+			"leadership" : 4,
+			"wisdom" : 8,
+			"mysticism" : 1,
+			"luck" : 4,
+			"ballistics" : 1,
+			"eagleEye" : 1,
+			"necromancy" : 0,
+			"estates" : 1,
+			"fireMagic" : 10,
+			"airMagic" : 8,
+			"waterMagic" : 7,
+			"earthMagic" : 9,
+			"scholar" : 1,
+			"tactics" : 5,
+			"artillery" : 1,
+			"learning" : 1,
+			"offence" : 5,
+			"armorer" : 6,
 			"intelligence" : 5,
-			"sorcery"      : 1,
-			"resistance"   : 0,
-			"firstAid"     : 1,
-			"paadPhoenixsBless": 10
+			"sorcery" : 1,
+			"resistance" : 0,
+			"firstAid" : 1,
+			"paadPhoenixsBless" : 10
 		},
 		"defaultTavern" : 0,
-		"tavern" :
-		{
-			"castle"     : 0,
-			"rampart"    : 0,
-			"tower"      : 0,
-			"inferno"    : 0,
+		"tavern" : {
+			"castle" : 0,
+			"rampart" : 0,
+			"tower" : 0,
+			"inferno" : 0,
 			"necropolis" : 0,
-			"dungeon"    : 0,
+			"dungeon" : 0,
 			"stronghold" : 0,
-			"fortress"   : 0,
-			"conflux"    : 0
+			"fortress" : 0,
+			"conflux" : 0
 		}
 	}
 }

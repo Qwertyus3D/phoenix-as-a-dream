@@ -1,75 +1,63 @@
 {
-	"paadPhoenixsSpellBook":
-     {
-		"type" : [ "HERO" ],
+	"paadPhoenixsSpellBook" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "LEFT_HAND",
 		"class" : "RELIC",
 		"value" : 24000,
-		"bonuses" : 
-		{
-			
-			"chainLightning" :
-			{
+		"bonuses" : {
+			"chainLightning" : {
 				"subtype" : "spell.chainLightning",
 				"type" : "SPELL",
 				"val" : 0
 			},
-			"meteorShower" :
-			{
+			"meteorShower" : {
 				"subtype" : "spell.meteorShower",
 				"type" : "SPELL",
 				"val" : 0
 			},
-			"resurrection" :
-			{
+			"resurrection" : {
 				"subtype" : "spell.resurrection",
 				"type" : "SPELL",
 				"val" : 0
 			},
-			"townPortal" :
-			{
+			"townPortal" : {
 				"subtype" : "spell.townPortal",
 				"type" : "SPELL",
 				"val" : 0
 			},
-			"prayer1" :
-			{
+			"prayer1" : {
 				"subtype" : "spell.prayer",
 				"type" : "SPELL",
 				"val" : 0
 			},
-			"armagedon" :
-			{
+			"armagedon" : {
 				"subtype" : "spell.armageddon",
 				"type" : "SPELL",
 				"val" : 0
 			},
-			"berserk " :
-			{
+			"berserk " : {
 				"subtype" : "spell.berserk",
 				"type" : "SPELL",
 				"val" : 0
 			},
-			"dimensionDoor" :
-			{
+			"dimensionDoor" : {
 				"subtype" : "spell.dimensionDoor",
 				"type" : "SPELL",
 				"val" : 0
 			},
-			"fly" :
-			{
+			"fly" : {
 				"subtype" : "spell.fly",
 				"type" : "SPELL",
 				"val" : 0
 			},
-			"prayer2" :
-			{
+			"prayer2" : {
 				"subtype" : "spell.prayer",
 				"type" : "SPELL",
 				"val" : 0
 			},
-			"paadLesserSummonPhoenix" :
-			{
+			"paadLesserSummonPhoenix" : {
 				"subtype" : "spell.paadLesserSummonPhoenix",
 				"type" : "SPELL",
 				"val" : 0,
@@ -88,8 +76,7 @@
 					}
 				]
 			},
-			"paadSummonPhoenix" :
-			{
+			"paadSummonPhoenix" : {
 				"subtype" : "spell.paadSummonPhoenix",
 				"type" : "SPELL",
 				"val" : 0,
@@ -107,7 +94,6 @@
 					}
 				]
 			}
-			
 		},
 		"graphics" : {
 			"scenarioBonus" : "phoenix-as-a-dream/artifacts/phoenixSpellBookLarge",
@@ -121,5 +107,3 @@
 		}
 	}
 }
-
-

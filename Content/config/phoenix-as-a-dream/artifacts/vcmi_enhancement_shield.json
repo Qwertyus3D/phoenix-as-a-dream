@@ -1,85 +1,75 @@
 {
-	"paadVCMIEnhancementShield":
-     {
-		"type" : [ "HERO" ],
+	"paadVCMIEnhancementShield" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "LEFT_HAND",
 		"class" : "RELIC",
 		"value" : 54000,
-		"bonuses" : 
-		{
-			"shield" :
-			{
-				"subtype": "shield",
+		"bonuses" : {
+			"shield" : {
+				"subtype" : "shield",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 100,
 				"valueType" : "BASE_NUMBER"
 			},
-			"airShield" :
-			{
-				"subtype": "airShield",
+			"airShield" : {
+				"subtype" : "airShield",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 100,
 				"valueType" : "BASE_NUMBER"
 			},
-			"fireShield" :
-			{
-				"subtype": "fireShield",
+			"fireShield" : {
+				"subtype" : "fireShield",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 100,
 				"valueType" : "BASE_NUMBER"
 			},
-			"protectAir" :
-			{
-				"subtype": "protectAir",
+			"protectAir" : {
+				"subtype" : "protectAir",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 100,
 				"valueType" : "BASE_NUMBER"
 			},
-			"protectFire" :
-			{
-				"subtype": "protectFire",
+			"protectFire" : {
+				"subtype" : "protectFire",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 100,
 				"valueType" : "BASE_NUMBER"
 			},
-			"protectWater" :
-			{
-				"subtype": "protectWater",
+			"protectWater" : {
+				"subtype" : "protectWater",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 100,
 				"valueType" : "BASE_NUMBER"
 			},
-			"protectEarth" :
-			{
-				"subtype": "protectEarth",
+			"protectEarth" : {
+				"subtype" : "protectEarth",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 100,
 				"valueType" : "BASE_NUMBER"
 			},
-			"magicMirror" :
-			{
-				"subtype": "magicMirror",
+			"magicMirror" : {
+				"subtype" : "magicMirror",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 100,
 				"valueType" : "BASE_NUMBER"
 			},
-			"stoneSkin" :
-			{
-				"subtype": "stoneSkin",
+			"stoneSkin" : {
+				"subtype" : "stoneSkin",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 100,
 				"valueType" : "BASE_NUMBER"
 			},
-			"soulSteal1" :
-			{
-				"subtype": "soulStealPermanent",
-				"type": "SOUL_STEAL",
-				"val": 1,
+			"soulSteal1" : {
+				"subtype" : "soulStealPermanent",
+				"type" : "SOUL_STEAL",
+				"val" : 1,
 				"limiters" : [
 					"allOf",
 					{
-						"type":"CREATURE_TYPE_LIMITER",
-						"creature": "firebird", 
+						"type" : "CREATURE_TYPE_LIMITER",
+						"creature" : "firebird",
 						"includeUpgrades" : false
 					},
 					{
@@ -91,16 +81,15 @@
 					}
 				]
 			},
-			"soulSteal2" :
-			{
-				"subtype": "soulStealPermanent",
-				"type": "SOUL_STEAL",
-				"val": 1,
+			"soulSteal2" : {
+				"subtype" : "soulStealPermanent",
+				"type" : "SOUL_STEAL",
+				"val" : 1,
 				"limiters" : [
 					"allOf",
 					{
-						"type":"CREATURE_TYPE_LIMITER",
-						"creature": "firebird", 
+						"type" : "CREATURE_TYPE_LIMITER",
+						"creature" : "firebird",
 						"includeUpgrades" : false
 					},
 					{
@@ -113,8 +102,7 @@
 				]
 			}
 		},
-		"components": 
-		[
+		"components" : [
 			"paadPhoenixsStaff",
 			"paadPhoenixsSpellBook",
 			"paadPhoenixsBadge"
@@ -131,5 +119,3 @@
 		}
 	}
 }
-
-

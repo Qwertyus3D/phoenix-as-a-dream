@@ -1,20 +1,18 @@
 {
-	"paadPhoenixsBadge":
-     {
-		"type" : [ "HERO" ],
+	"paadPhoenixsBadge" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "MISC",
 		"class" : "RELIC",
 		"value" : 8000,
-		"bonuses" : 
-		{
-			"rebirth" :
-			{
+		"bonuses" : {
+			"rebirth" : {
 				"type" : "REBIRTH",
 				"val" : 20,
 				"valueType" : "ADDITIVE_VALUE"
 			},
-			"specialUpgrade" :
-			{
+			"specialUpgrade" : {
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "creature.paadGoldenSunElement",
 				"addInfo" : "creature.firebird"
@@ -32,5 +30,3 @@
 		}
 	}
 }
-
-

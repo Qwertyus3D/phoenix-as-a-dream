@@ -18,7 +18,7 @@
 				"fireSpellDamageReduction" : {
 					"type" : "SPELL_DAMAGE_REDUCTION",
 					"subtype" : "fire",
-					"val": 25
+					"val" : 25
 				}
 			}
 		},
@@ -34,7 +34,7 @@
 				"fireSpellDamageReduction" : {
 					"type" : "SPELL_DAMAGE_REDUCTION",
 					"subtype" : "fire",
-					"val": 50
+					"val" : 50
 				}
 			}
 		},
@@ -50,7 +50,7 @@
 				"fireSpellDamageReduction" : {
 					"type" : "SPELL_DAMAGE_REDUCTION",
 					"subtype" : "fire",
-					"val": 100
+					"val" : 100
 				}
 			}
 		}

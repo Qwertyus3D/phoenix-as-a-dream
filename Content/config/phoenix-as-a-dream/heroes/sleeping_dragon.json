@@ -1,30 +1,25 @@
 {
-	"paadSleepingDragon" :
-	{
-		"class": "paadArmageddonJudger",
+	"paadSleepingDragon" : {
+		"class" : "paadArmageddonJudger",
 		"female" : false,
-		
-		"texts" :
-		{
+
+		"texts" : {
 			"name" : "Like Zheng",
 			"biography" : "Like Zheng (Wolong) was once an excellent commander who took up the mantle alone after the king's disappearance, achieving remarkable military successes. He was also a mage, a rare profession in their low-magic world. Using his magical skills, he spent ten years tracking the king to another world and constructed a one-way teleportation array. After arranging state affairs, he resolutely stepped through the portal, knowing well he might never return. However, in the new world, he only found the previously missing general—Henry Tao. Upon learning from Henry that the king had tragically died in Erathia, he was furious but did not join Eeofol, as he disliked the fickle demons. Instead, he became a mage of Nighon. Due to the differences between the two worlds, he gained some extraordinary magical abilities but could not receive certain magical enhancements from Colony.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Restoring all mana at the beginning of day and increasing magic damage by 5% per level. Increasing cast amount of commander 10% per level. As a trade-off, starting with basic mysticism and basic learning skills, and can not gain spell power and knowledge when leveling up. ",
 				"tooltip" : "Special Bonus: Mysterious Prophet",
 				"name" : "Mysterious Prophet"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "phoenixasadream/heroes/sleepingdragon/spec-small.bmp",
 			"specialtyLarge" : "phoenixasadream/heroes/sleepingdragon/spec-large.bmp",
 			"large" : "phoenixasadream/heroes/sleepingdragon/portrait-large.png",
 			"small" : "phoenixasadream/heroes/sleepingdragon/portrait-small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "troglodyte",
 				"max" : 40,
@@ -39,10 +34,9 @@
 				"creature" : "beholder",
 				"max" : 4,
 				"min" : 3
-			}			
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -60,32 +54,29 @@
 				"skill" : "learning"
 			}
 		],
-		"spellbook" :
-		[
+		"spellbook" : [
 			"magicArrow",
 			"armageddon"
 		],
 		"specialty" : {
 			"bonuses" : {
-				"fireMagic": {
+				"fireMagic" : {
 					"type" : "SPELL_DAMAGE",
 					"subtype" : "any",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 5,
 					"valueType" : "ADDITIVE_VALUE"
 				},
-				"fullManaRegeneration": {
+				"fullManaRegeneration" : {
 					"type" : "MANA_REGENERATION",
 					"val" : 100
 				},
-				"commanderCastsAmount" :
-				{
+				"commanderCastsAmount" : {
 					"type" : "CASTS",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 10,
-					"valueType": "PERCENT_TO_ALL",					
-					"limiters" : 
-					[
+					"valueType" : "PERCENT_TO_ALL",
+					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "paadSleepingDragonCommander",
@@ -97,4 +88,3 @@
 		}
 	}
 }
-

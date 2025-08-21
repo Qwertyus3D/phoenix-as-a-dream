@@ -1,13 +1,12 @@
 {
-	"paadRobeOfSalvation":
-     {
-		"type" : [ "COMMANDER" ],
+	"paadRobeOfSalvation" : {
+		"type" : [
+			"COMMANDER"
+		],
 		"class" : "TREASURE",
 		"value" : 1000,
-		"bonuses" : 
-		{
-			"armageddon" :
-			{
+		"bonuses" : {
+			"armageddon" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "armageddon"
 			}
@@ -24,5 +23,3 @@
 		}
 	}
 }
-
-

@@ -1,202 +1,280 @@
 {
-	"paadHotFlameElement":
-	{
-		"name" :
-		{
+	"paadHotFlameElement" : {
+		"name" : {
 			"plural" : "Hot Flame Elements",
-			"singular" : "Hot Flame Element",
+			"singular" : "Hot Flame Element"
 		},
-		"description": "The Hot Flame Element is formed by further condensing the energy of the Energy Element and contains powerful forces of flame within it. The Hot Flame Element can project the power of flames onto enemies, causing significant damage.",
-		"hasDoubleWeek": false,
+		"description" : "The Hot Flame Element is formed by further condensing the energy of the Energy Element and contains powerful forces of flame within it. The Hot Flame Element can project the power of flames onto enemies, causing significant damage.",
+		"hasDoubleWeek" : false,
 		"doubleWide" : false,
-     	"faction" : "conflux",
-		"advMapAmount" :
-		{
-			 "min" : 10,
-			 "max" : 16
+		"faction" : "conflux",
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 16
 		},
 		"level" : 5,
 		"attack" : 13,
 		"defense" : 10,
-		"damage" :
-		{
-			 "min" : 12,
-			 "max" : 15
+		"damage" : {
+			"min" : 12,
+			"max" : 15
 		},
 		"growth" : 3,
 		"hitPoints" : 50,
 		"speed" : 9,
 		"fightValue" : 582,
 		"aiValue" : 673,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 650
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "phoenix-as-a-dream/battle/creatures/hot_frame_element.def",
 			"map" : "phoenix-as-a-dream/map/creatures/hot_frame_element_map.def",
 			"iconSmall" : "phoenix-as-a-dream/iconsSmall/creatures/hot_frame_element_small.bmp",
 			"iconLarge" : "phoenix-as-a-dream/iconsBig/creatures/hot_frame_element_large.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 0.85,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
-			"attack": "ENERATTK.wav",
-			"defend": "ENERDFND.wav",
-			"killed": "ENERKILL.wav",
-			"move": "ENERMOVE.wav",
-			"wince": "ENERWNCE.wav"
-        },
-		"abilities" :
-		{ 
-			"canFly" : 
-			{	
-			    "type" : "FLYING",
-				"subtype": "movementTeleporting"
+		"sound" : {
+			"attack" : "ENERATTK.wav",
+			"defend" : "ENERDFND.wav",
+			"killed" : "ENERKILL.wav",
+			"move" : "ENERMOVE.wav",
+			"wince" : "ENERWNCE.wav"
+		},
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting"
 			},
-			"nonLiving" : 
-			{
+			"nonLiving" : {
 				"type" : "NON_LIVING"
 			},
-			"immuneToMind" : 
-			{
+			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY"
 			},
-			"immuneToFire" : 
-			{
+			"immuneToFire" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
 				"subtype" : "spellSchool.fire"
 			},
-			"frostRingVulnerablity" :
-			{
+			"frostRingVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.frostRing",
 				"val" : 50
 			},
-			"iceBoltVulnerablity" :
-			{
+			"iceBoltVulnerablity" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.iceBolt",
 				"val" : 50
 			},
-			"spellPower" : 
-			{
+			"spellPower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"spellPoints" : 
-			{
+			"spellPoints" : {
 				"type" : "CASTS",
 				"val" : 5
 			},
-			"spellcaster":
-			{
+			"spellcaster" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.fireball",
 				"val" : 1
 			},
-			"oppositeWater" :
-			{
+			"oppositeWater" : {
 				"type" : "HATE",
 				"subtype" : "creature.waterElemental",
 				"val" : 100
 			},
-			"oppositeIce" :
-			{
+			"oppositeIce" : {
 				"type" : "HATE",
 				"subtype" : "creature.iceElemental",
 				"val" : 100
 			},
-			"terrainNative" :
-			{
-				"type": "TERRAIN_NATIVE"
-			}	
+			"terrainNative" : {
+				"type" : "TERRAIN_NATIVE"
+			}
 		},
-		"stackExperience" : 
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					6,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENCHANTED",
 					"subtype" : "spell.fireShield"
 				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 3, 3, 3 ]
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENCHANTED",
 					"subtype" : "spell.protectWater"
 				},
-				"values" : [ 1, 1, 1, 2, 2, 2, 3, 3, 3, 3 ]
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					3
+				]
 			},
-			{	
-				"bonus" :
-				{
+			{
+				"bonus" : {
 					"type" : "RECEPTIVE"
 				},
-				"values" : [ false, false, false, false, false, false, false, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true
+				]
 			},
-			{	
-				"bonus" :
-				{
+			{
+				"bonus" : {
 					"type" : "CASTS"
 				},
-				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 3 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			}
 		]
 	}

@@ -18,12 +18,12 @@
 				"attack" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack",
-					"val": 1
+					"val" : 1
 				},
 				"defence" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence",
-					"val": 1
+					"val" : 1
 				}
 			}
 		},
@@ -39,20 +39,20 @@
 				"attack" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack",
-					"val": 1
+					"val" : 1
 				},
 				"defence" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence",
-					"val": 1
+					"val" : 1
 				},
-				"morale": {
+				"morale" : {
 					"type" : "MORALE",
-					"val": 1	
+					"val" : 1
 				},
-				"luck": {
+				"luck" : {
 					"type" : "LUCK",
-					"val": 1	
+					"val" : 1
 				}
 			}
 		},
@@ -68,35 +68,35 @@
 				"attack" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack",
-					"val": 1
+					"val" : 1
 				},
 				"defence" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence",
-					"val": 1
+					"val" : 1
 				},
-				"morale": {
+				"morale" : {
 					"type" : "MORALE",
-					"val": 1	
+					"val" : 1
 				},
-				"luck": {
+				"luck" : {
 					"type" : "LUCK",
-					"val": 1	
+					"val" : 1
 				},
-				"health": {
+				"health" : {
 					"type" : "STACK_HEALTH",
-					"val": 1,
+					"val" : 1,
 					"valueType" : "ADDITIVE_VALUE"
 				},
-				"damage": {
-					"type": "CREATURE_DAMAGE",
-					"subtype": "creatureDamageBoth",
-					"val": 1,
+				"damage" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageBoth",
+					"val" : 1,
 					"valueType" : "ADDITIVE_VALUE"
 				},
-				"speed": {
+				"speed" : {
 					"type" : "STACKS_SPEED",
-					"val": 1,
+					"val" : 1,
 					"valueType" : "ADDITIVE_VALUE"
 				}
 			}

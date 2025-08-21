@@ -1,338 +1,308 @@
 {
-	"phoenix-as-a-dream:paadReprogrammingChip":
-     {
-		"bonuses" : 
-		{
-			"+addAttack1" :
-			{
+	"phoenix-as-a-dream:paadReprogrammingChip" : {
+		"bonuses" : {
+			"+addAttack1" : {
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1,
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "ironGolem",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"+addAttack2" :
-			{
+			"+addAttack2" : {
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1,
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "stoneGolem",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"+addAttack3" :
-			{
+			"+addAttack3" : {
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1,
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "goldGolem",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"+addAttack4" :
-			{
+			"+addAttack4" : {
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1,
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "diamondGolem",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"+blockAttack1" :
-			{
+			"+blockAttack1" : {
 				"type" : "BLOCKS_RETALIATION",
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "giant",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"+blockAttack2" :
-			{
+			"+blockAttack2" : {
 				"type" : "BLOCKS_RETALIATION",
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "titan",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"noDistance1" :
-			{
+			"noDistance1" : {
 				"type" : "NO_DISTANCE_PENALTY",
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "titan",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"noWall1" :
-			{
+			"noWall1" : {
 				"type" : "NO_WALL_PENALTY",
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "titan",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"freeShoot1" :
-			{
+			"freeShoot1" : {
 				"type" : "FREE_SHOOTING",
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "titan",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"+blockAttack3" :
-			{
+			"+blockAttack3" : {
 				"type" : "BLOCKS_RETALIATION",
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "lordOfThunder",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"noDistance2" :
-			{
+			"noDistance2" : {
 				"type" : "NO_DISTANCE_PENALTY",
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "lordOfThunder",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"noWall2" :
-			{
+			"noWall2" : {
 				"type" : "NO_WALL_PENALTY",
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "lordOfThunder",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"freeShoot2" :
-			{
+			"freeShoot2" : {
 				"type" : "FREE_SHOOTING",
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "lordOfThunder",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"damRedo1" :
-			{
+			"damRedo1" : {
 				"type" : "GENERAL_DAMAGE_REDUCTION",
-				"subtype": "damageTypeAll",
+				"subtype" : "damageTypeAll",
 				"val" : 30,
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "ironGolem",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"damRedo2" :
-			{
+			"damRedo2" : {
 				"type" : "GENERAL_DAMAGE_REDUCTION",
-				"subtype": "damageTypeAll",
+				"subtype" : "damageTypeAll",
 				"val" : 30,
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "stoneGolem",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"damRedo3" :
-			{
+			"damRedo3" : {
 				"type" : "GENERAL_DAMAGE_REDUCTION",
-				"subtype": "damageTypeAll",
+				"subtype" : "damageTypeAll",
 				"val" : 30,
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "goldGolem",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"damRedo4" :
-			{
+			"damRedo4" : {
 				"type" : "GENERAL_DAMAGE_REDUCTION",
-				"subtype": "damageTypeAll",
+				"subtype" : "damageTypeAll",
 				"val" : 30,
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "diamondGolem",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"damRedo5" :
-			{
+			"damRedo5" : {
 				"type" : "GENERAL_DAMAGE_REDUCTION",
-				"subtype": "damageTypeAll",
+				"subtype" : "damageTypeAll",
 				"val" : 30,
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "giant",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"damRedo6" :
-			{
+			"damRedo6" : {
 				"type" : "GENERAL_DAMAGE_REDUCTION",
-				"subtype": "damageTypeAll",
+				"subtype" : "damageTypeAll",
 				"val" : 30,
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "titan",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"damRedo7" :
-			{
+			"damRedo7" : {
 				"type" : "GENERAL_DAMAGE_REDUCTION",
-				"subtype": "damageTypeAll",
+				"subtype" : "damageTypeAll",
 				"val" : 30,
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "lordOfThunder",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"stackSpeed1" :
-			{
+			"stackSpeed1" : {
 				"type" : "STACKS_SPEED",
 				"val" : 3,
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "ironGolem",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"stackSpeed2" :
-			{
+			"stackSpeed2" : {
 				"type" : "STACKS_SPEED",
 				"val" : 3,
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "stoneGolem",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"stackSpeed3" :
-			{
+			"stackSpeed3" : {
 				"type" : "STACKS_SPEED",
 				"val" : 4,
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "goldGolem",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"stackSpeed4" :
-			{
+			"stackSpeed4" : {
 				"type" : "STACKS_SPEED",
 				"val" : 4,
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "diamondGolem",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"stackSpeed5" :
-			{
+			"stackSpeed5" : {
 				"type" : "STACKS_SPEED",
 				"val" : 5,
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "giant",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"stackSpeed6" :
-			{
+			"stackSpeed6" : {
 				"type" : "STACKS_SPEED",
 				"val" : 5,
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "titan",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"stackSpeed7" :
-			{
+			"stackSpeed7" : {
 				"type" : "STACKS_SPEED",
 				"val" : 5,
 				"limiters" : [
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "lordOfThunder",
 						"includeUpgrades" : false
 					}
 				]
 			},
-			"fireImm1" :
-			{
+			"fireImm1" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype": "fire",
+				"subtype" : "fire",
 				"limiters" : [
 					"allOf",
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "ironGolem",
 						"includeUpgrades" : false
 					},
@@ -345,14 +315,13 @@
 					}
 				]
 			},
-			"fireImm2" :
-			{
+			"fireImm2" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype": "fire",
+				"subtype" : "fire",
 				"limiters" : [
 					"allOf",
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "stoneGolem",
 						"includeUpgrades" : false
 					},
@@ -365,14 +334,13 @@
 					}
 				]
 			},
-			"fireImm3" :
-			{
+			"fireImm3" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype": "fire",
+				"subtype" : "fire",
 				"limiters" : [
 					"allOf",
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "goldGolem",
 						"includeUpgrades" : false
 					},
@@ -385,14 +353,13 @@
 					}
 				]
 			},
-			"fireImm4" :
-			{
+			"fireImm4" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype": "fire",
+				"subtype" : "fire",
 				"limiters" : [
 					"allOf",
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "diamondGolem",
 						"includeUpgrades" : false
 					},
@@ -405,14 +372,13 @@
 					}
 				]
 			},
-			"fireImm5" :
-			{
+			"fireImm5" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype": "fire",
+				"subtype" : "fire",
 				"limiters" : [
 					"allOf",
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "giant",
 						"includeUpgrades" : false
 					},
@@ -425,14 +391,13 @@
 					}
 				]
 			},
-			"fireImm6" :
-			{
+			"fireImm6" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype": "fire",
+				"subtype" : "fire",
 				"limiters" : [
 					"allOf",
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "titan",
 						"includeUpgrades" : false
 					},
@@ -445,14 +410,13 @@
 					}
 				]
 			},
-			"fireImm7" :
-			{
+			"fireImm7" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype": "fire",
+				"subtype" : "fire",
 				"limiters" : [
 					"allOf",
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "lordOfThunder",
 						"includeUpgrades" : false
 					},
@@ -465,13 +429,12 @@
 					}
 				]
 			},
-			"receptive1" :
-			{
+			"receptive1" : {
 				"type" : "RECEPTIVE",
 				"limiters" : [
 					"allOf",
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "ironGolem",
 						"includeUpgrades" : false
 					},
@@ -484,13 +447,12 @@
 					}
 				]
 			},
-			"receptive2" :
-			{
+			"receptive2" : {
 				"type" : "RECEPTIVE",
 				"limiters" : [
 					"allOf",
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "stoneGolem",
 						"includeUpgrades" : false
 					},
@@ -503,13 +465,12 @@
 					}
 				]
 			},
-			"receptive3" :
-			{
+			"receptive3" : {
 				"type" : "RECEPTIVE",
 				"limiters" : [
 					"allOf",
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "goldGolem",
 						"includeUpgrades" : false
 					},
@@ -522,13 +483,12 @@
 					}
 				]
 			},
-			"receptive4" :
-			{
+			"receptive4" : {
 				"type" : "RECEPTIVE",
 				"limiters" : [
 					"allOf",
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "diamondGolem",
 						"includeUpgrades" : false
 					},
@@ -541,13 +501,12 @@
 					}
 				]
 			},
-			"receptive5" :
-			{
+			"receptive5" : {
 				"type" : "RECEPTIVE",
 				"limiters" : [
 					"allOf",
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "giant",
 						"includeUpgrades" : false
 					},
@@ -560,13 +519,12 @@
 					}
 				]
 			},
-			"receptive6" :
-			{
+			"receptive6" : {
 				"type" : "RECEPTIVE",
 				"limiters" : [
 					"allOf",
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "titan",
 						"includeUpgrades" : false
 					},
@@ -579,13 +537,12 @@
 					}
 				]
 			},
-			"receptive7" :
-			{
+			"receptive7" : {
 				"type" : "RECEPTIVE",
 				"limiters" : [
 					"allOf",
 					{
-						"type":"CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "lordOfThunder",
 						"includeUpgrades" : false
 					},
@@ -598,13 +555,11 @@
 					}
 				]
 			},
-			"specialUpg1" :
-			{
+			"specialUpg1" : {
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "fireElemental",
 				"addInfo" : "ironGolem",
 				"limiters" : [
-
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "PRIMARY_SKILL",
@@ -614,13 +569,11 @@
 					}
 				]
 			},
-			"specialUpg2" :
-			{
+			"specialUpg2" : {
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "energyElemental",
 				"addInfo" : "stoneGolem",
 				"limiters" : [
-
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "PRIMARY_SKILL",
@@ -630,13 +583,11 @@
 					}
 				]
 			},
-			"specialUpg3" :
-			{
+			"specialUpg3" : {
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "paadHotFlameElement",
 				"addInfo" : "goldGolem",
 				"limiters" : [
-
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "PRIMARY_SKILL",
@@ -646,13 +597,11 @@
 					}
 				]
 			},
-			"specialUpg4" :
-			{
+			"specialUpg4" : {
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "paadGoldenSunElement",
 				"addInfo" : "diamondGolem",
 				"limiters" : [
-
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "PRIMARY_SKILL",
@@ -662,13 +611,11 @@
 					}
 				]
 			},
-			"specialUpg5" :
-			{
+			"specialUpg5" : {
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "firebird",
 				"addInfo" : "giant",
 				"limiters" : [
-
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "PRIMARY_SKILL",
@@ -678,13 +625,11 @@
 					}
 				]
 			},
-			"specialUpg6" :
-			{
+			"specialUpg6" : {
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "phoenix",
 				"addInfo" : "titan",
 				"limiters" : [
-
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "PRIMARY_SKILL",
@@ -694,13 +639,11 @@
 					}
 				]
 			},
-			"specialUpg7" :
-			{
+			"specialUpg7" : {
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "sacredPhoenix",
 				"addInfo" : "lordOfThunder",
 				"limiters" : [
-
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "PRIMARY_SKILL",
@@ -710,13 +653,11 @@
 					}
 				]
 			},
-			"specialUpg8" :
-			{
+			"specialUpg8" : {
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "ironGolem",
 				"addInfo" : "stoneGolem",
 				"limiters" : [
-
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "PRIMARY_SKILL",
@@ -726,13 +667,11 @@
 					}
 				]
 			},
-			"specialUpg9" :
-			{
+			"specialUpg9" : {
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "stoneGolem",
 				"addInfo" : "goldGolem",
 				"limiters" : [
-
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "PRIMARY_SKILL",
@@ -742,13 +681,11 @@
 					}
 				]
 			},
-			"specialUpg10" :
-			{
+			"specialUpg10" : {
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "goldGolem",
 				"addInfo" : "diamondGolem",
 				"limiters" : [
-
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "PRIMARY_SKILL",
@@ -758,13 +695,11 @@
 					}
 				]
 			},
-			"specialUpg11" :
-			{
+			"specialUpg11" : {
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "diamondGolem",
 				"addInfo" : "giant",
 				"limiters" : [
-
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "PRIMARY_SKILL",
@@ -774,13 +709,11 @@
 					}
 				]
 			},
-			"specialUpg12" :
-			{
+			"specialUpg12" : {
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "giant",
 				"addInfo" : "titan",
 				"limiters" : [
-
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "PRIMARY_SKILL",
@@ -790,13 +723,11 @@
 					}
 				]
 			},
-			"specialUpg13" :
-			{
+			"specialUpg13" : {
 				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "titan",
 				"addInfo" : "lordOfThunder",
 				"limiters" : [
-
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "PRIMARY_SKILL",
@@ -809,5 +740,3 @@
 		}
 	}
 }
-
-

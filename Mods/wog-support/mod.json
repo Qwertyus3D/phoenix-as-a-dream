@@ -1,18 +1,20 @@
 {
 	"name" : "Phoenix As a Dream - Wog support",
 	"description" : "Add wog units support.",
-	"author": "kdmcser",
+	"author" : "kdmcser",
 	"version" : "1.0.0",
-	"contact": "",
+	"contact" : "",
 	"modType" : "Compatibility",
-	"depends" : ["wake-of-gods"],
-	"compatibility" :
-	{
+	"depends" : [
+		"wake-of-gods"
+	],
+	"compatibility" : {
 		"min" : "1.5.0"
-	},	
-	"changelog" :
-	{
-		"1.0.0"   : [ "Initial release" ]
+	},
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
 	},
 
 	"chinese" : {

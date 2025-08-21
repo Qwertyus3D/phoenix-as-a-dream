@@ -1,21 +1,21 @@
 {
 	"name" : "Phoenix As a Dream - Wog level8 units support",
 	"description" : "Add wog level 8 units support.",
-	"author": "kdmcser",
+	"author" : "kdmcser",
 	"version" : "1.0.0",
-	"contact": "",
+	"contact" : "",
 	"modType" : "Compatibility",
 	"depends" : [
-		"wake-of-gods.level8units", 
+		"wake-of-gods.level8units",
 		"phoenix-as-a-dream"
 	],
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.6.0"
-	},	
-	"changelog" :
-	{
-		"1.0.0"   : [ "Initial release" ]
+	},
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
 	},
 
 	"chinese" : {
@@ -25,21 +25,18 @@
 			"translation/paadwog/chinese.json"
 		]
 	},
-	
-    "artifacts" :
-	[
+
+	"artifacts" : [
 		"config/paadwog/artifacts/phoenix_staff.json",
 		"config/paadwog/artifacts/vcmi_enhancement_shield.json",
 		"config/paadwog/artifacts/reprogramming_chip.json"
 	],
-	
-	"heroes" :
-	[
+
+	"heroes" : [
 		"config/paadwog/heroes/phoenix_as_a_dream.json"
 	],
-	
-	"spells":
-	[
+
+	"spells" : [
 		"config/paadwog/spells/summon_phoenix.json",
 		"config/paadwog/spells/lesser_summon_phoenix.json"
 	]

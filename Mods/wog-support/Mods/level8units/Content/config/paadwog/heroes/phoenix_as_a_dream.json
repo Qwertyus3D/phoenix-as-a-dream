@@ -1,21 +1,18 @@
 {
-	"phoenix-as-a-dream:paadphoenixasadream" :
-	{
-		"texts" :
-		{
-			"specialty" :
-			{
+	"phoenix-as-a-dream:paadphoenixasadream" : {
+		"texts" : {
+			"specialty" : {
 				"description" : "{Flame creatures}\r\n\r\nUpgrade giants/titans/lord of thunders to firebirds/phoenixes/sacred phoenix, and upgrade golems to relative fire elements. Flame creatures can also be upgraded without their buildings."
 			}
 		},
 		"specialty" : {
 			"bonuses" : {
-				"lordOfThunder2sacredPhoenix": {
+				"lordOfThunder2sacredPhoenix" : {
 					"type" : "SPECIAL_UPGRADE",
 					"subtype" : "lordOfThunder",
 					"addInfo" : "sacredPhoenix"
 				},
-				"phoenix2sacredPhoenix": {
+				"phoenix2sacredPhoenix" : {
 					"type" : "SPECIAL_UPGRADE",
 					"subtype" : "phoenix",
 					"addInfo" : "sacredPhoenix"
@@ -24,4 +21,3 @@
 		}
 	}
 }
-

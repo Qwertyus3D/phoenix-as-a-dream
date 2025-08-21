@@ -1,202 +1,291 @@
 {
-	"paadGoldenSunElement":
-	{
-		"name" :
-		{
+	"paadGoldenSunElement" : {
+		"name" : {
 			"plural" : "Golden Sun Elements",
 			"singular" : "Golden Sun Element"
 		},
-		"description": "The Golden Sun Element is a creature formed from the ultimate condensation of flames, imbued with a trace of solar power. It is said that under the right conditions, the Golden Sun Element can transform into a bird, just as the sun becomes the mythical golden crow.",
-		"hasDoubleWeek": false,
+		"description" : "The Golden Sun Element is a creature formed from the ultimate condensation of flames, imbued with a trace of solar power. It is said that under the right conditions, the Golden Sun Element can transform into a bird, just as the sun becomes the mythical golden crow.",
+		"hasDoubleWeek" : false,
 		"doubleWide" : false,
-     	"faction" : "conflux",
-		"advMapAmount" :
-		{
-			 "min" : 8,
-			 "max" : 12
+		"faction" : "conflux",
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 12
 		},
 		"level" : 6,
 		"attack" : 15,
 		"defense" : 14,
-		"damage" :
-		{
-			 "min" : 15,
-			 "max" : 20
+		"damage" : {
+			"min" : 15,
+			"max" : 20
 		},
 		"growth" : 2,
 		"hitPoints" : 80,
 		"speed" : 11,
 		"fightValue" : 906,
 		"aiValue" : 1015,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1000
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "phoenix-as-a-dream/battle/creatures/golden_sun_element.def",
 			"map" : "phoenix-as-a-dream/map/creatures/golden_sun_element_map.def",
 			"iconSmall" : "phoenix-as-a-dream/iconsSmall/creatures/golden_sun_element_small.bmp",
 			"iconLarge" : "phoenix-as-a-dream/iconsBig/creatures/golden_sun_element_large.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 0.8,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
-			"attack": "ENERATTK.wav",
-			"defend": "ENERDFND.wav",
-			"killed": "ENERKILL.wav",
-			"move": "ENERMOVE.wav",
-			"wince": "ENERWNCE.wav"
-        },
-		"abilities" :
-		{ 
-			"canFly" : 
-			{	
-			    "type" : "FLYING",
-				"subtype": "movementTeleporting"
+		"sound" : {
+			"attack" : "ENERATTK.wav",
+			"defend" : "ENERDFND.wav",
+			"killed" : "ENERKILL.wav",
+			"move" : "ENERMOVE.wav",
+			"wince" : "ENERWNCE.wav"
+		},
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting"
 			},
-			"nonLiving" : 
-			{
+			"nonLiving" : {
 				"type" : "NON_LIVING"
 			},
-			"immuneToMind" : 
-			{
+			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY"
 			},
-			"immuneToFire" : 
-			{
+			"immuneToFire" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
 				"subtype" : "spellSchool.fire"
 			},
-			"spellPower" : 
-			{
+			"spellPower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 125
 			},
-			"spellPoints" : 
-			{
+			"spellPoints" : {
 				"type" : "CASTS",
 				"val" : 10
 			},
-			"spellcaster":
-			{
+			"spellcaster" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.fireball",
 				"val" : 3
 			},
-			"blockRetaliation":
-			{
+			"blockRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"oppositeWater" :
-			{
+			"oppositeWater" : {
 				"type" : "HATE",
 				"subtype" : "creature.waterElemental",
 				"val" : 100
 			},
-			"oppositeIce" :
-			{
+			"oppositeIce" : {
 				"type" : "HATE",
 				"subtype" : "creature.iceElemental",
 				"val" : 100
 			},
-			"terrainNative" :
-			{
-				"type": "TERRAIN_NATIVE"
-			}	
+			"terrainNative" : {
+				"type" : "TERRAIN_NATIVE"
+			}
 		},
-		"stackExperience" : 
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENCHANTED",
 					"subtype" : "spell.fireShield"
 				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 3, 3, 3 ]
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENCHANTED",
 					"subtype" : "spell.protectWater"
 				},
-				"values" : [ 1, 1, 1, 2, 2, 2, 3, 3, 3, 3 ]
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					3
+				]
 			},
-			{	
-				"bonus" :
-				{
+			{
+				"bonus" : {
 					"type" : "RECEPTIVE"
 				},
-				"values" : [ false, false, false, false, false, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
-			{	
-				"bonus" :
-				{
+			{
+				"bonus" : {
 					"type" : "CASTS"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
-			{	
-				"bonus" :
-				{
+			{
+				"bonus" : {
 					"type" : "RETURN_AFTER_STRIKE"
 				},
-				"values" : [ false, false, false, true, true, true, true, true, true, true ]
-			}			
+				"values" : [
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
+			}
 		]
 	}
 }

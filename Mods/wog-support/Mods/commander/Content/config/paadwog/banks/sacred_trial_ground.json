@@ -1,22 +1,26 @@
 {
-	"core:creatureBank" : 
-	{
-		"types" : 
-		{
-			"paadSacredTrialGround" : 
-			{
+	"core:creatureBank" : {
+		"types" : {
+			"paadSacredTrialGround" : {
 				"name" : "Sacred Trial Ground",
 				"templates" : {
-					"base" : { 
-						"animation" : "paadwog/map/banks/sacredTrialGround.def", 
-						"visitableFrom" : [ "---", "-+-", "+++" ], 
-						"mask" : ["VVVV", "VBAB"]
+					"base" : {
+						"animation" : "paadwog/map/banks/sacredTrialGround.def",
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"VBAB"
+						]
 					}
 				},
 				"rmg" : {
-					"value"		: 1000,
+					"value" : 1000,
 					"zoneLimit" : 3,
-					"rarity"	: 100
+					"rarity" : 100
 				},
 				"aiValue" : 1500,
 				"resetParameters" : {
@@ -29,154 +33,206 @@
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "default",
-				"rewards": [
+				"rewards" : [
 					{
 						"message" : 34,
-						"appearChance":  { "min" : 0, "max" : 10 },
-						"guards": [
-							{ "amount": 3, "type" : "angel" }
+						"appearChance" : {
+							"min" : 0,
+							"max" : 10
+						},
+						"guards" : [
+							{
+								"amount" : 3,
+								"type" : "angel"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"gems" : 1,
 							"gold" : 3000
 						},
-						"artifacts": [
+						"artifacts" : [
 							"paadRobeOfSalvation"
 						]
 					},
 					{
 						"message" : 34,
-						"appearChance":  { "min" : 10, "max" : 20 },
-						"guards": [
-							{ "amount": 3, "type" : "greenDragon" }
+						"appearChance" : {
+							"min" : 10,
+							"max" : 20
+						},
+						"guards" : [
+							{
+								"amount" : 3,
+								"type" : "greenDragon"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"crystal" : 1,
 							"gold" : 2400
 						},
-						"artifacts": [
+						"artifacts" : [
 							"paadRobeOfSalvation"
 						]
 					},
 					{
 						"message" : 34,
-						"appearChance":  { "min" : 20, "max" : 30 },
-						"guards": [
-							{ "amount": 3, "type" : "giant" }
+						"appearChance" : {
+							"min" : 20,
+							"max" : 30
+						},
+						"guards" : [
+							{
+								"amount" : 3,
+								"type" : "giant"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"gems" : 1,
 							"gold" : 2000
 						},
-						"artifacts": [
+						"artifacts" : [
 							"paadRobeOfSalvation"
 						]
 					},
 					{
 						"message" : 34,
-						"appearChance":  { "min" : 30, "max" : 40 },
-						"guards": [
-							{ "amount": 3, "type" : "devil" }
+						"appearChance" : {
+							"min" : 30,
+							"max" : 40
+						},
+						"guards" : [
+							{
+								"amount" : 3,
+								"type" : "devil"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"mercury" : 1,
 							"gold" : 2700
 						},
-						"artifacts": [
+						"artifacts" : [
 							"paadRobeOfSalvation"
 						]
 					},
 					{
 						"message" : 34,
-						"appearChance":  { "min" : 40, "max" : 50 },
-						"guards": [
-							{ "amount": 3, "type" : "boneDragon" }
+						"appearChance" : {
+							"min" : 40,
+							"max" : 50
+						},
+						"guards" : [
+							{
+								"amount" : 3,
+								"type" : "boneDragon"
+							}
 						],
-						"resources": 
-						{
-						
+						"resources" : {
 							"gold" : 1800
 						},
-						"artifacts": [
+						"artifacts" : [
 							"paadRobeOfSalvation"
 						]
 					},
 					{
 						"message" : 34,
-						"appearChance":  { "min" : 50, "max" : 60 },
-						"guards": [
-							{ "amount": 3, "type" : "redDragon" }
+						"appearChance" : {
+							"min" : 50,
+							"max" : 60
+						},
+						"guards" : [
+							{
+								"amount" : 3,
+								"type" : "redDragon"
+							}
 						],
-						"resources": 
-						{	
+						"resources" : {
 							"sulfur" : 1,
 							"gold" : 2500
 						},
-						"artifacts": [
+						"artifacts" : [
 							"paadRobeOfSalvation"
 						]
 					},
 					{
 						"message" : 34,
-						"appearChance":  { "min" : 60, "max" : 70 },
-						"guards": [
-							{ "amount": 3, "type" : "behemoth" }
+						"appearChance" : {
+							"min" : 60,
+							"max" : 70
+						},
+						"guards" : [
+							{
+								"amount" : 3,
+								"type" : "behemoth"
+							}
 						],
-						"resources": 
-						{	
+						"resources" : {
 							"gold" : 1500
 						},
-						"artifacts": [
+						"artifacts" : [
 							"paadRobeOfSalvation"
 						]
 					},
 					{
 						"message" : 34,
-						"appearChance":  { "min" : 70, "max" : 80 },
-						"guards": [
-							{ "amount": 3, "type" : "hydra" }
+						"appearChance" : {
+							"min" : 70,
+							"max" : 80
+						},
+						"guards" : [
+							{
+								"amount" : 3,
+								"type" : "hydra"
+							}
 						],
-						"resources": 
-						{	
+						"resources" : {
 							"gold" : 2200
 						},
-						"artifacts": [
+						"artifacts" : [
 							"paadRobeOfSalvation"
 						]
 					},
 					{
 						"message" : 34,
-						"appearChance":  { "min" : 80, "max" : 90 },
-						"guards": [
-							{ "amount": 3, "type" : "firebird" }
+						"appearChance" : {
+							"min" : 80,
+							"max" : 90
+						},
+						"guards" : [
+							{
+								"amount" : 3,
+								"type" : "firebird"
+							}
 						],
-						"resources": 
-						{	
+						"resources" : {
 							"gold" : 1500
 						},
-						"artifacts": [
+						"artifacts" : [
 							"paadRobeOfSalvation"
 						]
 					},
 					{
 						"message" : 34,
-						"appearChance":  { "min" : 90, "max" : 100 },
-						"guards": [
-							{ "amount": 3, "type" : "paadGoldenSunElement" },
-							{ "amount": 3, "type" : "paadGoldenSunElement" }
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
+						"guards" : [
+							{
+								"amount" : 3,
+								"type" : "paadGoldenSunElement"
+							},
+							{
+								"amount" : 3,
+								"type" : "paadGoldenSunElement"
+							}
 						],
-						"resources": 
-						{	
+						"resources" : {
 							"gold" : 2000
 						},
-						"artifacts": [
+						"artifacts" : [
 							"paadRobeOfSalvation"
 						],
-						"spells": [
+						"spells" : [
 							"fireball"
 						]
 					}

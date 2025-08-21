@@ -1,30 +1,25 @@
 {
-	"paadphoenixasadream" :
-	{
-		"class": "paadPhoenixSummoner",
+	"paadphoenixasadream" : {
+		"class" : "paadPhoenixSummoner",
 		"female" : false,
-		
-		"texts" :
-		{
+
+		"texts" : {
 			"name" : "Phoenix As a Dream",
 			"biography" : "Phoenix As a Dream does not originate from the continent of Antagarich, and his origins are largely unknown to the outside world. After touring Antagarich, he decided to join Bracada to help maintain the continent's balance. He is not affiliated with any of Bracada's factions; instead, all factions hold him in high esteem. It is said that his power is great enough to sweep across the entire Bracada and even Antagarich. However, he has no interest in power and intentionally conceals most of his abilities. Nonetheless, if the artifacts he hid during his previous tours are returned to him, he is willing to unlock a portion of his power.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Upgrade giants/titans to firebirds/phoenixes, and upgrade golems to relative fire elements. Flame creatures can also be upgraded without their buildings.",
 				"tooltip" : "Special Upgrade: Flame creatures",
 				"name" : "Flame creatures"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "phoenixasadream/heroes/phoenixasadream/spec-small.bmp",
 			"specialtyLarge" : "phoenixasadream/heroes/phoenixasadream/spec-large.bmp",
 			"large" : "phoenixasadream/heroes/phoenixasadream/portrait-large.bmp",
 			"small" : "phoenixasadream/heroes/phoenixasadream/portrait-small.bmp"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "ironGolem",
 				"max" : 5,
@@ -39,10 +34,9 @@
 				"creature" : "ironGolem",
 				"max" : 3,
 				"min" : 2
-			},			
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -52,59 +46,58 @@
 				"skill" : "paadPhoenixsBless"
 			}
 		],
-		"spellbook" :
-		[
+		"spellbook" : [
 			"fireElemental"
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
-				"gaint2Firebird": {
+				"gaint2Firebird" : {
 					"type" : "SPECIAL_UPGRADE",
 					"subtype" : "creature.giant",
 					"addInfo" : "creature.firebird"
 				},
-				"titan2Phoenix": {
+				"titan2Phoenix" : {
 					"type" : "SPECIAL_UPGRADE",
 					"subtype" : "creature.titan",
 					"addInfo" : "creature.phoenix"
 				},
-				"firebird2Phoenix": {
+				"firebird2Phoenix" : {
 					"type" : "SPECIAL_UPGRADE",
 					"subtype" : "creature.firebird",
 					"addInfo" : "creature.phoenix"
-				},			
-				"ironGolem2FireElemental": {
+				},
+				"ironGolem2FireElemental" : {
 					"type" : "SPECIAL_UPGRADE",
 					"subtype" : "creature.ironGolem",
 					"addInfo" : "creature.fireElemental"
 				},
-				"stoneGolem2EnergyElemental": {
+				"stoneGolem2EnergyElemental" : {
 					"type" : "SPECIAL_UPGRADE",
 					"subtype" : "creature.stoneGolem",
 					"addInfo" : "creature.energyElemental"
 				},
-				"goldGolem2HotFlameElement": {
+				"goldGolem2HotFlameElement" : {
 					"type" : "SPECIAL_UPGRADE",
 					"subtype" : "creature.goldGolem",
 					"addInfo" : "creature.paadHotFlameElement"
 				},
-				"diamondGolemGolem2GoldenSunElement": {
+				"diamondGolemGolem2GoldenSunElement" : {
 					"type" : "SPECIAL_UPGRADE",
 					"subtype" : "creature.diamondGolem",
 					"addInfo" : "creature.paadGoldenSunElement"
 				},
-				"fireElemental2EnergyElemental": {
+				"fireElemental2EnergyElemental" : {
 					"type" : "SPECIAL_UPGRADE",
 					"subtype" : "creature.fireElemental",
 					"addInfo" : "creature.energyElemental"
 				},
-				"energyElemental2HotFlameElement": {
+				"energyElemental2HotFlameElement" : {
 					"type" : "SPECIAL_UPGRADE",
 					"subtype" : "creature.energyElemental",
 					"addInfo" : "creature.paadHotFlameElement"
 				},
-				"hotFlameElement2GoldenSunElement": {
+				"hotFlameElement2GoldenSunElement" : {
 					"type" : "SPECIAL_UPGRADE",
 					"subtype" : "creature.paadHotFlameElement",
 					"addInfo" : "creature.paadGoldenSunElement"
@@ -113,4 +106,3 @@
 		}
 	}
 }
-
